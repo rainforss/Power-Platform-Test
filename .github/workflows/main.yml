@@ -22,7 +22,7 @@ jobs:
 
     steps:
     - name: Export Solution
-      uses: microsoft/powerplatform-actions/export-solution@v0
+      uses: microsoft/powerplatform-actions/export-solution@v0.8.2
       with:
         environment-url: 'https://marketingdemo.crm3.dynamics.com'
         user-name: 'dynamics365@betachdemo2020pcsandbox.onmicrosoft.com'
