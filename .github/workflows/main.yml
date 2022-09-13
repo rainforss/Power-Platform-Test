@@ -33,7 +33,7 @@ jobs:
     - name: Import Solution
       uses: microsoft/powerplatform-actions/import-solution@v0.8.2
       with:
-        environment-url: https://marketingdemo.crm3.dynamics.com
+        environment-url: https://betachnonprofit.crm3.dynamics.com
         user-name: dynamics365@betachdemo2020pcsandbox.onmicrosoft.com
         password-secret: ${{ secrets.POWERPLATFORM_SOURCEPASSWORD }}
         solution-file: PowerPlatformActionTest_1_0_0_1_managed.zip
