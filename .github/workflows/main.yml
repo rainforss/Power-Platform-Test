@@ -36,5 +36,5 @@ jobs:
         environment-url: https://marketingdemo.crm3.dynamics.com
         user-name: dynamics365@betachdemo2020pcsandbox.onmicrosoft.com
         password-secret: ${{ secrets.POWERPLATFORM_SOURCEPASSWORD }}
-        solution-file: ‘PowerPlatformActionTest_1_0_0_1_managed.zip’
+        solution-file: PowerPlatformActionTest_1_0_0_1_managed.zip
         
