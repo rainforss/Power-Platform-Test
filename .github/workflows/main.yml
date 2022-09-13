@@ -24,9 +24,8 @@ jobs:
     - name: Export Solution
       uses: microsoft/powerplatform-actions/export-solution@v0.8.2
       with:
-        environment-url: 'https://marketingdemo.crm3.dynamics.com'
-        user-name: 'dynamics365@betachdemo2020pcsandbox.onmicrosoft.com'
+        environment-url: https://marketingdemo.crm3.dynamics.com
+        user-name: dynamics365@betachdemo2020pcsandbox.onmicrosoft.com
         password-secret: ${{ secrets.POWERPLATFORM_SOURCEPASSWORD }}
-        solution-name: Power Platform Action Test
+        solution-name: PowerPlatformActionTest
         solution-output-file: 'PowerPlatformActionTest_1_0_0_1_managed.zip'
-        working-directory: 'out'
